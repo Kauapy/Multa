@@ -1,0 +1,6 @@
+velocidade=float(input('Digite a velocidade que você estava dirigindo: '))
+if(velocidade > 80):
+    multa=(velocidade -80) * 7
+    print('Você foi multado! Sua multa sera de {}'.format(multa))
+else:
+    print('Sua velocidade está dentro do limite, Tenha um bom dia!')
